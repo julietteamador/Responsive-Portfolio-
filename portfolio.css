@@ -1,0 +1,76 @@
+h1 {
+    color: teal;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    color:white;
+    background-color: white;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#wrapper{
+    width: 100%;
+    padding: 40px;
+    clear: both;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links {
+    width: 20%;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    background-color: white;
+    width: 70%;
+    padding: 5%;
+    margin: 0 auto;
+}
+footer{
+    background-color: #666666;
+    width: 100%;
+    bottom: 0;
+    border-top: teal solid 5px;
+    text-align: center;
+    height: 50px;
+    margin-top: -50px;
+}
+.name {
+    background-color: teal;
+    padding: 20px;
+    width: 20%;
+    float: left;
+}
+.nav-container{
+    width: 70%;
+    margin: 0 auto;
+}
+body{
+    background-image: url(assets/images/folk-pattern/folk-pattern.png)
+}
+.picturewrap{
+    position: relative;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row {
+    clear: both;
+    display: table;
+}
+#one{
+    position: relative;
+    left: 10pt;
+    margin: 10pt;
+}
+
+#two{
+    float: right;
+}
+.picdiv{
+    display: inline-block;
+}
